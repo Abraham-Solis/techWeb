@@ -10,18 +10,6 @@ const User = pls.defineUser(sequelize, {
   email: {
     type: DataTypes.STRING,
     allowNull: false
-  },
-  totalGames: {
-    type: DataTypes.INTEGER,
-    default: 0
-  },
-  averageTime: {
-    type: DataTypes.STRING,
-    allowNull: true
-  },
-  fastestTime: {
-    type: DataTypes.STRING,
-    allowNull: true
   }
 })
 

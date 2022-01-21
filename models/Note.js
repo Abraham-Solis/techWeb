@@ -1,12 +1,12 @@
 const { Model, DataTypes } = require('sequelize')
 const sequelize = require('../db')
 
-class Comments extends Model { }
-Comments.init({
+class Note extends Model { }
+Note.init({
   body: {
     type: DataTypes.STRING,
     allowNull: false
   }
-}, { sequelize, modelName: 'comments' })
+}, { sequelize, modelName: 'note' })
 
-module.exports = Comments
+module.exports = Note

@@ -1,37 +1,33 @@
 {
-  "name": "sunodeku",
+  "name": "12-17-21",
   "version": "1.0.0",
-  "description": "This is bradley's test commit",
+  "description": "- Relationships & User Auth",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node seeders"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Abraham-Solis/suNodeKu.git"
+    "url": "git+https://github.com/QFults/12-17-21.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Abraham-Solis/suNodeKu/issues"
+    "url": "https://github.com/QFults/12-17-21/issues"
   },
-  "homepage": "https://github.com/Abraham-Solis/suNodeKu#readme",
+  "homepage": "https://github.com/QFults/12-17-21#readme",
   "dependencies": {
-    "axios": "^0.24.0",
-    "connect-session-sequelize": "^7.1.2",
     "dotenv": "^10.0.0",
     "express": "^4.17.2",
-    "express-handlebars": "^6.0.2",
-    "express-session": "^1.17.2",
-    "handlebars": "^4.7.7",
     "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
     "passport-local-sequelize": "^0.9.0",
-    "sequelize": "^6.12.4"
+    "sequelize": "^6.12.0-beta.3"
   }
 }
