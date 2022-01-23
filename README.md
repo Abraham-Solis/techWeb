@@ -11,7 +11,7 @@
   - [Questions](#questions)
 
   ## Description
-  This is a blog webiste that allows developers to publishtheir blog posts and comment on other developers’ posts as well.
+  This is a blog webiste that allows developers to publishtheir blog posts and comment on other developers’ posts as well. Please see the link to go to the live website: https://secure-savannah-09453.herokuapp.com/
 
   ## Installation
   *Steps required to install project and how to get the development environment running:*
